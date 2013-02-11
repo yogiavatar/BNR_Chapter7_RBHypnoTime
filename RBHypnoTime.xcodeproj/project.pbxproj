@@ -13,6 +13,14 @@
 		1FE9E95B16C3193900E4479D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE9E95916C3193900E4479D /* InfoPlist.strings */; };
 		1FE9E95D16C3193900E4479D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E95C16C3193900E4479D /* main.m */; };
 		1FE9E96116C3193900E4479D /* RBHypnoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E96016C3193900E4479D /* RBHypnoAppDelegate.m */; };
+		1FE9E96916C325AF00E4479D /* RBHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E96816C325AF00E4479D /* RBHypnosisViewController.m */; };
+		1FE9E96C16C325F700E4479D /* RBHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E96B16C325F700E4479D /* RBHypnosisView.m */; };
+		1FE9E96F16C32A7D00E4479D /* RBTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E96E16C32A7D00E4479D /* RBTimeViewController.m */; };
+		1FE9E97116C32C5200E4479D /* RBTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE9E97016C32C5200E4479D /* RBTimeViewController.xib */; };
+		1FE9E97516C479A600E4479D /* RBMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9E97316C479A600E4479D /* RBMapViewController.m */; };
+		1FE9E97616C479A600E4479D /* RBMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE9E97416C479A600E4479D /* RBMapViewController.xib */; };
+		1FE9E97C16C47BCE00E4479D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE9E97B16C47BCE00E4479D /* MapKit.framework */; };
+		1FE9E97E16C48A8900E4479D /* RBHypnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE9E97D16C48A8900E4479D /* RBHypnosisViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,24 @@
 		1FE9E95016C3193900E4479D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FE9E95216C3193900E4479D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FE9E95416C3193900E4479D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1FE9E95816C3193900E4479D /* RBHypnoTime-Info.plist */ = {isa = PBXFileReference; path = "RBHypnoTime-Info.plist"; sourceTree = "<group>"; };
+		1FE9E95816C3193900E4479D /* RBHypnoTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBHypnoTime-Info.plist"; sourceTree = "<group>"; };
 		1FE9E95A16C3193900E4479D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FE9E95C16C3193900E4479D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1FE9E95E16C3193900E4479D /* RBHypnoTime-Prefix.pch */ = {isa = PBXFileReference; path = "RBHypnoTime-Prefix.pch"; sourceTree = "<group>"; };
-		1FE9E95F16C3193900E4479D /* RBHypnoAppDelegate.h */ = {isa = PBXFileReference; path = RBHypnoAppDelegate.h; sourceTree = "<group>"; };
+		1FE9E95E16C3193900E4479D /* RBHypnoTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBHypnoTime-Prefix.pch"; sourceTree = "<group>"; };
+		1FE9E95F16C3193900E4479D /* RBHypnoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBHypnoAppDelegate.h; sourceTree = "<group>"; };
 		1FE9E96016C3193900E4479D /* RBHypnoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBHypnoAppDelegate.m; sourceTree = "<group>"; };
+		1FE9E96716C325AF00E4479D /* RBHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBHypnosisViewController.h; path = ../RBHypnosisViewController.h; sourceTree = "<group>"; };
+		1FE9E96816C325AF00E4479D /* RBHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBHypnosisViewController.m; path = ../RBHypnosisViewController.m; sourceTree = "<group>"; };
+		1FE9E96A16C325F700E4479D /* RBHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBHypnosisView.h; path = ../RBHypnosisView.h; sourceTree = "<group>"; };
+		1FE9E96B16C325F700E4479D /* RBHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBHypnosisView.m; path = ../RBHypnosisView.m; sourceTree = "<group>"; };
+		1FE9E96D16C32A7D00E4479D /* RBTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBTimeViewController.h; path = ../RBTimeViewController.h; sourceTree = "<group>"; };
+		1FE9E96E16C32A7D00E4479D /* RBTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBTimeViewController.m; path = ../RBTimeViewController.m; sourceTree = "<group>"; };
+		1FE9E97016C32C5200E4479D /* RBTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RBTimeViewController.xib; path = ../RBTimeViewController.xib; sourceTree = "<group>"; };
+		1FE9E97216C479A600E4479D /* RBMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMapViewController.h; sourceTree = "<group>"; };
+		1FE9E97316C479A600E4479D /* RBMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMapViewController.m; sourceTree = "<group>"; };
+		1FE9E97416C479A600E4479D /* RBMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBMapViewController.xib; sourceTree = "<group>"; };
+		1FE9E97B16C47BCE00E4479D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1FE9E97D16C48A8900E4479D /* RBHypnosisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBHypnosisViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE9E97C16C47BCE00E4479D /* MapKit.framework in Frameworks */,
 				1FE9E95116C3193900E4479D /* UIKit.framework in Frameworks */,
 				1FE9E95316C3193900E4479D /* Foundation.framework in Frameworks */,
 				1FE9E95516C3193900E4479D /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +83,7 @@
 		1FE9E94F16C3193900E4479D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FE9E97B16C47BCE00E4479D /* MapKit.framework */,
 				1FE9E95016C3193900E4479D /* UIKit.framework */,
 				1FE9E95216C3193900E4479D /* Foundation.framework */,
 				1FE9E95416C3193900E4479D /* CoreGraphics.framework */,
@@ -72,6 +94,17 @@
 		1FE9E95616C3193900E4479D /* RBHypnoTime */ = {
 			isa = PBXGroup;
 			children = (
+				1FE9E96D16C32A7D00E4479D /* RBTimeViewController.h */,
+				1FE9E97016C32C5200E4479D /* RBTimeViewController.xib */,
+				1FE9E96E16C32A7D00E4479D /* RBTimeViewController.m */,
+				1FE9E97216C479A600E4479D /* RBMapViewController.h */,
+				1FE9E97316C479A600E4479D /* RBMapViewController.m */,
+				1FE9E97416C479A600E4479D /* RBMapViewController.xib */,
+				1FE9E96A16C325F700E4479D /* RBHypnosisView.h */,
+				1FE9E96B16C325F700E4479D /* RBHypnosisView.m */,
+				1FE9E96716C325AF00E4479D /* RBHypnosisViewController.h */,
+				1FE9E96816C325AF00E4479D /* RBHypnosisViewController.m */,
+				1FE9E97D16C48A8900E4479D /* RBHypnosisViewController.xib */,
 				1FE9E95F16C3193900E4479D /* RBHypnoAppDelegate.h */,
 				1FE9E96016C3193900E4479D /* RBHypnoAppDelegate.m */,
 				1FE9E95716C3193900E4479D /* Supporting Files */,
@@ -142,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE9E95B16C3193900E4479D /* InfoPlist.strings in Resources */,
+				1FE9E97116C32C5200E4479D /* RBTimeViewController.xib in Resources */,
+				1FE9E97616C479A600E4479D /* RBMapViewController.xib in Resources */,
+				1FE9E97E16C48A8900E4479D /* RBHypnosisViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +190,10 @@
 			files = (
 				1FE9E95D16C3193900E4479D /* main.m in Sources */,
 				1FE9E96116C3193900E4479D /* RBHypnoAppDelegate.m in Sources */,
+				1FE9E96916C325AF00E4479D /* RBHypnosisViewController.m in Sources */,
+				1FE9E96C16C325F700E4479D /* RBHypnosisView.m in Sources */,
+				1FE9E96F16C32A7D00E4479D /* RBTimeViewController.m in Sources */,
+				1FE9E97516C479A600E4479D /* RBMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

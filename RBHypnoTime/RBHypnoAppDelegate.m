@@ -2,11 +2,12 @@
 //  RBHypnoAppDelegate.m
 //  RBHypnoTime
 //
-//  Created by Rashmi Bajaj on 2/6/13.
-//  Copyright (c) 2013 France Telecom Group (Orange) San Francisco. All rights reserved.
 //
 
 #import "RBHypnoAppDelegate.h"
+#import "RBHypnosisViewController.h"
+#import "RBTimeViewController.h"
+#import "RBMapViewController.h"
 
 @implementation RBHypnoAppDelegate
 
@@ -16,6 +17,26 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    RBHypnosisViewController *hvc = [[RBHypnosisViewController alloc] init];
+    
+    RBTimeViewController *tvc = [[RBTimeViewController alloc] init];
+    
+    //Solution to Chapter 7 Bronze Challenge
+    RBMapViewController *mvc = [[RBMapViewController alloc] init];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    NSArray *viewControllers = [NSArray arrayWithObjects:hvc, tvc, mvc, nil];
+    
+    [tabBarController setViewControllers:viewControllers];
+    
+    [[self window] setRootViewController:tabBarController];
+    
+    //[[self window] setRootViewController:tvc];
+    //[[self window] setRootViewController:hvc];
+    
+   
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
